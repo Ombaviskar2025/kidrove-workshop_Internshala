@@ -1,0 +1,13 @@
+{
+  "name": "kidrove-workshop",
+  "version": "1.0.0",
+  "description": "AI & Robotics Summer Workshop Landing Page — Kidrove Assignment",
+  "private": true,
+  "scripts": {
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm run dev",
+    "install:all": "npm install && cd client && npm install && cd ../server && npm install",
+    "build": "cd client && npm run build"
+  },
+  "author": "Kidrove Workshop Assignment"
+}
